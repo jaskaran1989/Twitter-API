@@ -2,10 +2,10 @@
 require "twitteroauth-master/autoload.php";
 use Abraham\TwitterOAuth\TwitterOAuth;
 include ("twitteroauth-master/src/TwitterOAuth.php") ;  
-$apikey="tKmoXYkdjZzQih4htOn6ETDEb";
-$apisecret="eu02Ggfi4Jt9VTsgSyhsKH3vHIn6pjEywnFIvxHp0jlhp2HoDn";
-$accesstoken="840563825166315522-wmN4J3yyxNwFg2BfRjIDKseo2FewZ6M";
-$accesssecret="m2j93TB9fT3lTkOO6Zk4QWGvU1jWLfmSCUbZROWG0YvkK";
+$apikey=" your key";
+$apisecret="your key";
+$accesstoken="your key";
+$accesssecret="your key";
 
 $connection= new TwitterOAuth($apikey,$apisecret,$accesstoken,$accesssecret);
 
